@@ -18,4 +18,39 @@ On Day 1, I focused on practicing fundamental SQL Data Definition Language (DDL)
 - Altering table structure  
 - Adding and modifying columns  
 - Renaming tables  
-- Difference between TRUNCATE and DROP  
+- Difference between TRUNCATE and DROP
+
+## 🔹 Day 2: SQL Coding Challenge – Online Bookstore 📚
+
+On Day 2, I practiced table constraints, relationships, and data manipulation by designing an Online Bookstore database.
+
+### 📌 Tasks Completed
+
+- Created a `Books` table with:
+  - `BookID` as PRIMARY KEY
+  - `Title` and `Author` as NOT NULL
+  - `ISBN` as UNIQUE
+  - `Price` with CHECK constraint (Price > 0)
+
+- Created an `Orders` table with:
+  - `OrderID` as PRIMARY KEY
+  - `BookID` as FOREIGN KEY referencing `Books(BookID)`
+  - `OrderDate` as NOT NULL
+  - `Quantity` with CHECK constraint (Quantity > 0)
+
+- Altered the `Books` table to add a DEFAULT constraint to the `ISBN` column.
+
+- Inserted, retrieved, and updated records while maintaining all constraints.
+
+- Practiced the difference between:
+  - **DELETE** – Removes selected rows using a WHERE clause.
+  - **TRUNCATE** – Removes all rows while keeping the table structure.
+
+### 🎯 Concepts Practiced
+
+- PRIMARY KEY and FOREIGN KEY
+- NOT NULL, UNIQUE, CHECK, DEFAULT constraints
+- INSERT, SELECT, UPDATE operations
+- DELETE vs TRUNCATE
+- Maintaining data integrity
+
