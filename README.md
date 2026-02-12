@@ -54,3 +54,31 @@ On Day 2, I practiced table constraints, relationships, and data manipulation by
 - DELETE vs TRUNCATE
 - Maintaining data integrity
 
+## 🔹 Day 3: SQL Coding Challenge – Clauses & Operators 🛒
+
+On Day 3, I practiced SQL clauses, aggregate functions, grouping, and window functions using an ECommerce database.
+
+### 📌 Tasks Completed
+
+- Retrieved the top 3 highest-priced products using `ORDER BY` (DESC) and `LIMIT`.
+
+- Applied aggregate functions on the `Sales` table:
+  - `COUNT()` – Total sales records  
+  - `SUM()` – Total sales amount  
+  - `AVG()` – Average sale amount  
+  - `MAX()` – Highest sale amount  
+  - `MIN()` – Lowest sale amount  
+
+- Used `GROUP BY` to calculate total sales per product and applied `HAVING` to filter products with total sales greater than ₹100.
+
+- Implemented Window Functions (`RANK()` / `DENSE_RANK()`) to rank products based on price from highest to lowest.
+
+### 🎯 Concepts Practiced
+
+- ORDER BY and LIMIT  
+- Aggregate Functions  
+- GROUP BY and HAVING  
+- Window Functions (RANK, DENSE_RANK)  
+- Data summarization and ranking  
+
+
