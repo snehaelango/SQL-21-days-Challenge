@@ -82,3 +82,38 @@ On Day 3, I practiced SQL clauses, aggregate functions, grouping, and window fun
 - Data summarization and ranking  
 
 
+## 🔹 Day 4: SQL Coding Challenge – Sorting & Aggregates 🛒
+
+On Day 4, I practiced sorting, aggregate functions, grouping, and filtering aggregated data using the ECommerce database.
+
+### 📌 Tasks Completed
+
+- Sorted products by price in descending order using `ORDER BY`.
+
+- Retrieved the top 3 most expensive products using `ORDER BY` with `LIMIT`.
+
+- Calculated total sales amount using `SUM()`.
+
+- Computed average sale amount using `AVG()`.
+
+- Determined total number of sales and identified highest and lowest sale amounts using `COUNT()`, `MAX()`, and `MIN()`.
+
+- Used `GROUP BY` to calculate total sales per product.
+
+- Applied `HAVING` to filter products based on total and average sales conditions.
+
+- Combined `GROUP BY`, `ORDER BY`, and `LIMIT` to:
+  - Sort products by total sales
+  - Retrieve top-performing products
+  - Apply multiple aggregate conditions
+
+### 🎯 Concepts Practiced
+
+- ORDER BY and LIMIT  
+- Aggregate Functions (SUM, AVG, COUNT, MAX, MIN)  
+- GROUP BY  
+- HAVING  
+- Sorting and filtering aggregated data  
+- Sales performance analysis  
+
+
