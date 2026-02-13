@@ -117,3 +117,38 @@ On Day 4, I practiced sorting, aggregate functions, grouping, and filtering aggr
 - Sales performance analysis  
 
 
+## 🔹 Day 5: SQL Coding Challenge – Joins & Built-in Functions 🎓
+
+Day 5 focuses on table joins and commonly used SQL built-in functions using a School database.
+
+### 📌 Tasks Completed
+
+- Used `INNER JOIN` to display students with their enrolled courses.
+
+- Applied `LEFT JOIN` and `RIGHT JOIN` to include unmatched records from related tables.
+
+- Implemented numeric functions:
+  - `ROUND()` for decimal precision
+  - `ABS()` for absolute values
+  - `MOD()` to calculate remainders
+
+- Used string functions:
+  - `CONCAT()` to combine student details
+  - `LENGTH()` to calculate character count
+  - `REPLACE()` to modify course names
+  - `SUBSTRING()` to extract name prefixes
+  - `UPPER()` and `LOWER()` for text formatting
+
+- Applied date functions:
+  - `NOW()` to display current date and time
+  - `DATEDIFF()` to calculate date differences
+  - `DATE_ADD()` to generate follow-up dates
+
+### 🎯 Concepts Practiced
+
+- INNER, LEFT, and RIGHT JOIN  
+- Numeric Functions  
+- String Functions  
+- Date Functions  
+- Data formatting and transformation  
+
